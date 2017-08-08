@@ -1,0 +1,5 @@
+---
+- hosts: leaf
+  user: cumulus
+  roles:
+    - interfaces
