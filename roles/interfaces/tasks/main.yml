@@ -1,3 +1,4 @@
 - name: configure interface
   template: src=interfaces.j2 dest=/etc/network/interfaces
+  become: yes
   notify: reload networking
